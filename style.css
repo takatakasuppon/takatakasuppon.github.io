@@ -1,0 +1,33 @@
+.Top {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 200px 500px 1000px;
+  grid-template-areas:
+    "header header"
+    "main submenu"
+    "footer footer";
+}
+.header {
+  grid-area: header;
+  text-align: center;
+  background-color: brown;
+  color: blue;
+}
+.main {
+  grid-area: main;
+  text-align: center;
+  background-color: lime;
+  color: red;
+}
+.submenu {
+  grid-area: submenu;
+  text-align: center;
+  background-color: cyan;
+  color: green;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: silver;
+  color: pink;
+}
